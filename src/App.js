@@ -29,6 +29,26 @@ const App = () => {
                 }
               />
               <Route
+                path="/website"
+                element={
+                  <>
+                    <HeaderConatiner />
+                    <HomeContainer />
+                    <FooterContainer />
+                  </>
+                }
+              />
+              <Route
+                path="/asdf"
+                element={
+                  <>
+                    <HeaderConatiner />
+                    <HomeContainer />
+                    <FooterContainer />
+                  </>
+                }
+              />
+              <Route
                 path="*"
                 element={
                   <Error404 />
