@@ -10,7 +10,7 @@ import {
   // ThemeProvider,
 } from '@mui/material';
 // import theme from './shared/assets/theme';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 const App = () => {
